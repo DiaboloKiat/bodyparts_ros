@@ -9,4 +9,4 @@ bodyparts:
         topic: /bodyparts/visualization
         activated: True
     gpu: 0
-    model: 50
+    model: 152
