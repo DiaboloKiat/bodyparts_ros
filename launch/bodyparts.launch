@@ -2,12 +2,12 @@
     <!-- Open camera -->
     <include file="$(find realsense2_camera)/launch/rs_rgbd.launch"/>
 
-    <!-- Open bodyparts_action -->
-    <include file="$(find bodyparts_ros)/launch/bodyparts_action.launch"/>
-
     <!-- Open bodyparts_publisher -->
     <include file="$(find bodyparts_ros)/launch/bodyparts_publisher.launch"/>
 
     <!-- Open bodyparts_service -->
     <include file="$(find bodyparts_ros)/launch/bodyparts_service.launch"/>
+
+    <!-- Open bodyparts_action -->
+    <include file="$(find bodyparts_ros)/launch/bodyparts_action.launch"/>
 </launch>
